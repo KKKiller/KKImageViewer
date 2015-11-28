@@ -17,4 +17,3 @@ KKTapImageView *headImgView1 = [[KKTapImageView alloc]initWithFrame:CGRectMake(1
  ![image](https://github.com/KKKiller/KKImageViewer/raw/master/anyPositon.gif)
 
 三.在tableView的每个cell中集成一组图片,切关闭时缩小至对应的cell
- ![image](https://github.com/KKKiller/KKImageViewer/raw/master/tableView.gif)
