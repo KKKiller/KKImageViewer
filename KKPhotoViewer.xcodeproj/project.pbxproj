@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F164A37F1C08070E00D43B4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F164A37E1C08070E00D43B4A /* main.m */; };
+		F164A3821C08070E00D43B4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F164A3811C08070E00D43B4A /* AppDelegate.m */; };
+		F164A3851C08070E00D43B4A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F164A3841C08070E00D43B4A /* ViewController.m */; };
+		F164A3881C08070E00D43B4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F164A3861C08070E00D43B4A /* Main.storyboard */; };
+		F164A38A1C08070E00D43B4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F164A3891C08070E00D43B4A /* Assets.xcassets */; };
+		F164A38D1C08070E00D43B4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F164A38B1C08070E00D43B4A /* LaunchScreen.storyboard */; };
+		F164A3981C08070E00D43B4A /* KKPhotoViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F164A3971C08070E00D43B4A /* KKPhotoViewerTests.m */; };
+		F164A3A31C08070E00D43B4A /* KKPhotoViewerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F164A3A21C08070E00D43B4A /* KKPhotoViewerUITests.m */; };
+		F164A4081C083C6200D43B4A /* KKTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F164A4071C083C6200D43B4A /* KKTableViewController.m */; };
+		F164A40B1C083C7A00D43B4A /* KKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F164A40A1C083C7A00D43B4A /* KKViewController.m */; };
+		F1B5AD451C08604F00806E18 /* KKImageViewerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B5AD0E1C08604F00806E18 /* KKImageViewerHelper.m */; };
+		F1B5AD461C08604F00806E18 /* KKImgScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B5AD101C08604F00806E18 /* KKImgScrollView.m */; };
+		F1B5AD471C08604F00806E18 /* KKTapImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B5AD121C08604F00806E18 /* KKTapImageView.m */; };
+		F1B5AD491C08604F00806E18 /* KKBaseProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B5AD171C08604F00806E18 /* KKBaseProgressView.m */; };
+		F1B5AD4A1C08604F00806E18 /* KKLoadingProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B5AD191C08604F00806E18 /* KKLoadingProgressView.m */; };
+		F1B5AD4B1C08604F00806E18 /* KKPercentProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B5AD1B1C08604F00806E18 /* KKPercentProgressView.m */; };
+		F1B5AD4C1C08604F00806E18 /* KKPieProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B5AD1D1C08604F00806E18 /* KKPieProgressView.m */; };
+		F1B5AD4D1C08604F00806E18 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B5AD1F1C08604F00806E18 /* MBProgressHUD.m */; };
+		F1B5AD4E1C08604F00806E18 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1B5AD211C08604F00806E18 /* Crashlytics.framework */; };
+		F1B5AD4F1C08604F00806E18 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1B5AD221C08604F00806E18 /* Fabric.framework */; };
+		F1B5AD501C08604F00806E18 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B5AD241C08604F00806E18 /* MKAnnotationView+WebCache.m */; };
+		F1B5AD511C08604F00806E18 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B5AD261C08604F00806E18 /* NSData+ImageContentType.m */; };
+		F1B5AD521C08604F00806E18 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B5AD281C08604F00806E18 /* SDImageCache.m */; };
+		F1B5AD531C08604F00806E18 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B5AD2A1C08604F00806E18 /* SDWebImageCompat.m */; };
+		F1B5AD541C08604F00806E18 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B5AD2C1C08604F00806E18 /* SDWebImageDecoder.m */; };
+		F1B5AD551C08604F00806E18 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B5AD2E1C08604F00806E18 /* SDWebImageDownloader.m */; };
+		F1B5AD561C08604F00806E18 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B5AD301C08604F00806E18 /* SDWebImageDownloaderOperation.m */; };
+		F1B5AD571C08604F00806E18 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B5AD321C08604F00806E18 /* SDWebImageManager.m */; };
+		F1B5AD581C08604F00806E18 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B5AD351C08604F00806E18 /* SDWebImagePrefetcher.m */; };
+		F1B5AD591C08604F00806E18 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B5AD371C08604F00806E18 /* UIButton+WebCache.m */; };
+		F1B5AD5A1C08604F00806E18 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B5AD391C08604F00806E18 /* UIImage+GIF.m */; };
+		F1B5AD5B1C08604F00806E18 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B5AD3B1C08604F00806E18 /* UIImage+MultiFormat.m */; };
+		F1B5AD5C1C08604F00806E18 /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B5AD3D1C08604F00806E18 /* UIImage+WebP.m */; };
+		F1B5AD5D1C08604F00806E18 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B5AD3F1C08604F00806E18 /* UIImageView+HighlightedWebCache.m */; };
+		F1B5AD5E1C08604F00806E18 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B5AD411C08604F00806E18 /* UIImageView+WebCache.m */; };
+		F1B5AD5F1C08604F00806E18 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B5AD431C08604F00806E18 /* UIView+WebCacheOperation.m */; };
+		F1B5AD621C09544E00806E18 /* UIImage+Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B5AD611C09544E00806E18 /* UIImage+Circle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F164A3941C08070E00D43B4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F164A3721C08070E00D43B4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F164A3791C08070E00D43B4A;
+			remoteInfo = KKPhotoViewer;
+		};
+		F164A39F1C08070E00D43B4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F164A3721C08070E00D43B4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F164A3791C08070E00D43B4A;
+			remoteInfo = KKPhotoViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F164A37A1C08070E00D43B4A /* KKPhotoViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKPhotoViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F164A37E1C08070E00D43B4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F164A3801C08070E00D43B4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F164A3811C08070E00D43B4A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F164A3831C08070E00D43B4A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F164A3841C08070E00D43B4A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F164A3871C08070E00D43B4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F164A3891C08070E00D43B4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F164A38C1C08070E00D43B4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F164A38E1C08070E00D43B4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F164A3931C08070E00D43B4A /* KKPhotoViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKPhotoViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F164A3971C08070E00D43B4A /* KKPhotoViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKPhotoViewerTests.m; sourceTree = "<group>"; };
+		F164A3991C08070E00D43B4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F164A39E1C08070E00D43B4A /* KKPhotoViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKPhotoViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F164A3A21C08070E00D43B4A /* KKPhotoViewerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKPhotoViewerUITests.m; sourceTree = "<group>"; };
+		F164A3A41C08070E00D43B4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F164A4061C083C6200D43B4A /* KKTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKTableViewController.h; sourceTree = "<group>"; };
+		F164A4071C083C6200D43B4A /* KKTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKTableViewController.m; sourceTree = "<group>"; };
+		F164A4091C083C7A00D43B4A /* KKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKViewController.h; sourceTree = "<group>"; };
+		F164A40A1C083C7A00D43B4A /* KKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKViewController.m; sourceTree = "<group>"; };
+		F1B5AD0D1C08604F00806E18 /* KKImageViewerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKImageViewerHelper.h; sourceTree = "<group>"; };
+		F1B5AD0E1C08604F00806E18 /* KKImageViewerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKImageViewerHelper.m; sourceTree = "<group>"; };
+		F1B5AD0F1C08604F00806E18 /* KKImgScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKImgScrollView.h; sourceTree = "<group>"; };
+		F1B5AD101C08604F00806E18 /* KKImgScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKImgScrollView.m; sourceTree = "<group>"; };
+		F1B5AD111C08604F00806E18 /* KKTapImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKTapImageView.h; sourceTree = "<group>"; };
+		F1B5AD121C08604F00806E18 /* KKTapImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKTapImageView.m; sourceTree = "<group>"; };
+		F1B5AD161C08604F00806E18 /* KKBaseProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKBaseProgressView.h; sourceTree = "<group>"; };
+		F1B5AD171C08604F00806E18 /* KKBaseProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKBaseProgressView.m; sourceTree = "<group>"; };
+		F1B5AD181C08604F00806E18 /* KKLoadingProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKLoadingProgressView.h; sourceTree = "<group>"; };
+		F1B5AD191C08604F00806E18 /* KKLoadingProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKLoadingProgressView.m; sourceTree = "<group>"; };
+		F1B5AD1A1C08604F00806E18 /* KKPercentProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKPercentProgressView.h; sourceTree = "<group>"; };
+		F1B5AD1B1C08604F00806E18 /* KKPercentProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKPercentProgressView.m; sourceTree = "<group>"; };
+		F1B5AD1C1C08604F00806E18 /* KKPieProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKPieProgressView.h; sourceTree = "<group>"; };
+		F1B5AD1D1C08604F00806E18 /* KKPieProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKPieProgressView.m; sourceTree = "<group>"; };
+		F1B5AD1E1C08604F00806E18 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = LoadProgressView/MBProgressHUD.h; sourceTree = "<group>"; };
+		F1B5AD1F1C08604F00806E18 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = LoadProgressView/MBProgressHUD.m; sourceTree = "<group>"; };
+		F1B5AD211C08604F00806E18 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		F1B5AD221C08604F00806E18 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		F1B5AD231C08604F00806E18 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
+		F1B5AD241C08604F00806E18 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
+		F1B5AD251C08604F00806E18 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		F1B5AD261C08604F00806E18 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		F1B5AD271C08604F00806E18 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		F1B5AD281C08604F00806E18 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		F1B5AD291C08604F00806E18 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		F1B5AD2A1C08604F00806E18 /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		F1B5AD2B1C08604F00806E18 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		F1B5AD2C1C08604F00806E18 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		F1B5AD2D1C08604F00806E18 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		F1B5AD2E1C08604F00806E18 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		F1B5AD2F1C08604F00806E18 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		F1B5AD301C08604F00806E18 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		F1B5AD311C08604F00806E18 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		F1B5AD321C08604F00806E18 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		F1B5AD331C08604F00806E18 /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		F1B5AD341C08604F00806E18 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		F1B5AD351C08604F00806E18 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		F1B5AD361C08604F00806E18 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		F1B5AD371C08604F00806E18 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		F1B5AD381C08604F00806E18 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		F1B5AD391C08604F00806E18 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		F1B5AD3A1C08604F00806E18 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		F1B5AD3B1C08604F00806E18 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		F1B5AD3C1C08604F00806E18 /* UIImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WebP.h"; sourceTree = "<group>"; };
+		F1B5AD3D1C08604F00806E18 /* UIImage+WebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WebP.m"; sourceTree = "<group>"; };
+		F1B5AD3E1C08604F00806E18 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		F1B5AD3F1C08604F00806E18 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		F1B5AD401C08604F00806E18 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		F1B5AD411C08604F00806E18 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		F1B5AD421C08604F00806E18 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		F1B5AD431C08604F00806E18 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		F1B5AD601C09544E00806E18 /* UIImage+Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Circle.h"; sourceTree = "<group>"; };
+		F1B5AD611C09544E00806E18 /* UIImage+Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Circle.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F164A3771C08070E00D43B4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1B5AD4E1C08604F00806E18 /* Crashlytics.framework in Frameworks */,
+				F1B5AD4F1C08604F00806E18 /* Fabric.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F164A3901C08070E00D43B4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F164A39B1C08070E00D43B4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F164A3711C08070E00D43B4A = {
+			isa = PBXGroup;
+			children = (
+				F164A37C1C08070E00D43B4A /* KKPhotoViewer */,
+				F164A3961C08070E00D43B4A /* KKPhotoViewerTests */,
+				F164A3A11C08070E00D43B4A /* KKPhotoViewerUITests */,
+				F164A37B1C08070E00D43B4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F164A37B1C08070E00D43B4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F164A37A1C08070E00D43B4A /* KKPhotoViewer.app */,
+				F164A3931C08070E00D43B4A /* KKPhotoViewerTests.xctest */,
+				F164A39E1C08070E00D43B4A /* KKPhotoViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F164A37C1C08070E00D43B4A /* KKPhotoViewer */ = {
+			isa = PBXGroup;
+			children = (
+				F164A3801C08070E00D43B4A /* AppDelegate.h */,
+				F164A3811C08070E00D43B4A /* AppDelegate.m */,
+				F164A3831C08070E00D43B4A /* ViewController.h */,
+				F164A3841C08070E00D43B4A /* ViewController.m */,
+				F164A4061C083C6200D43B4A /* KKTableViewController.h */,
+				F164A4071C083C6200D43B4A /* KKTableViewController.m */,
+				F164A4091C083C7A00D43B4A /* KKViewController.h */,
+				F164A40A1C083C7A00D43B4A /* KKViewController.m */,
+				F1B5AD0A1C08604F00806E18 /* KKImageViewer */,
+				F164A37D1C08070E00D43B4A /* Supporting Files */,
+			);
+			path = KKPhotoViewer;
+			sourceTree = "<group>";
+		};
+		F164A37D1C08070E00D43B4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F164A3861C08070E00D43B4A /* Main.storyboard */,
+				F164A3891C08070E00D43B4A /* Assets.xcassets */,
+				F164A38B1C08070E00D43B4A /* LaunchScreen.storyboard */,
+				F164A38E1C08070E00D43B4A /* Info.plist */,
+				F164A37E1C08070E00D43B4A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F164A3961C08070E00D43B4A /* KKPhotoViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F164A3971C08070E00D43B4A /* KKPhotoViewerTests.m */,
+				F164A3991C08070E00D43B4A /* Info.plist */,
+			);
+			path = KKPhotoViewerTests;
+			sourceTree = "<group>";
+		};
+		F164A3A11C08070E00D43B4A /* KKPhotoViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F164A3A21C08070E00D43B4A /* KKPhotoViewerUITests.m */,
+				F164A3A41C08070E00D43B4A /* Info.plist */,
+			);
+			path = KKPhotoViewerUITests;
+			sourceTree = "<group>";
+		};
+		F1B5AD0A1C08604F00806E18 /* KKImageViewer */ = {
+			isa = PBXGroup;
+			children = (
+				F1B5AD0D1C08604F00806E18 /* KKImageViewerHelper.h */,
+				F1B5AD0E1C08604F00806E18 /* KKImageViewerHelper.m */,
+				F1B5AD0F1C08604F00806E18 /* KKImgScrollView.h */,
+				F1B5AD101C08604F00806E18 /* KKImgScrollView.m */,
+				F1B5AD111C08604F00806E18 /* KKTapImageView.h */,
+				F1B5AD121C08604F00806E18 /* KKTapImageView.m */,
+				F1B5AD631C09590F00806E18 /* HelpFile */,
+			);
+			path = KKImageViewer;
+			sourceTree = "<group>";
+		};
+		F1B5AD131C08604F00806E18 /* KKLoadProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				F1B5AD161C08604F00806E18 /* KKBaseProgressView.h */,
+				F1B5AD171C08604F00806E18 /* KKBaseProgressView.m */,
+				F1B5AD181C08604F00806E18 /* KKLoadingProgressView.h */,
+				F1B5AD191C08604F00806E18 /* KKLoadingProgressView.m */,
+				F1B5AD1A1C08604F00806E18 /* KKPercentProgressView.h */,
+				F1B5AD1B1C08604F00806E18 /* KKPercentProgressView.m */,
+				F1B5AD1C1C08604F00806E18 /* KKPieProgressView.h */,
+				F1B5AD1D1C08604F00806E18 /* KKPieProgressView.m */,
+			);
+			name = KKLoadProgressView;
+			path = LoadProgressView;
+			sourceTree = "<group>";
+		};
+		F1B5AD201C08604F00806E18 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				F1B5AD211C08604F00806E18 /* Crashlytics.framework */,
+				F1B5AD221C08604F00806E18 /* Fabric.framework */,
+				F1B5AD231C08604F00806E18 /* MKAnnotationView+WebCache.h */,
+				F1B5AD241C08604F00806E18 /* MKAnnotationView+WebCache.m */,
+				F1B5AD251C08604F00806E18 /* NSData+ImageContentType.h */,
+				F1B5AD261C08604F00806E18 /* NSData+ImageContentType.m */,
+				F1B5AD271C08604F00806E18 /* SDImageCache.h */,
+				F1B5AD281C08604F00806E18 /* SDImageCache.m */,
+				F1B5AD291C08604F00806E18 /* SDWebImageCompat.h */,
+				F1B5AD2A1C08604F00806E18 /* SDWebImageCompat.m */,
+				F1B5AD2B1C08604F00806E18 /* SDWebImageDecoder.h */,
+				F1B5AD2C1C08604F00806E18 /* SDWebImageDecoder.m */,
+				F1B5AD2D1C08604F00806E18 /* SDWebImageDownloader.h */,
+				F1B5AD2E1C08604F00806E18 /* SDWebImageDownloader.m */,
+				F1B5AD2F1C08604F00806E18 /* SDWebImageDownloaderOperation.h */,
+				F1B5AD301C08604F00806E18 /* SDWebImageDownloaderOperation.m */,
+				F1B5AD311C08604F00806E18 /* SDWebImageManager.h */,
+				F1B5AD321C08604F00806E18 /* SDWebImageManager.m */,
+				F1B5AD331C08604F00806E18 /* SDWebImageOperation.h */,
+				F1B5AD341C08604F00806E18 /* SDWebImagePrefetcher.h */,
+				F1B5AD351C08604F00806E18 /* SDWebImagePrefetcher.m */,
+				F1B5AD361C08604F00806E18 /* UIButton+WebCache.h */,
+				F1B5AD371C08604F00806E18 /* UIButton+WebCache.m */,
+				F1B5AD381C08604F00806E18 /* UIImage+GIF.h */,
+				F1B5AD391C08604F00806E18 /* UIImage+GIF.m */,
+				F1B5AD3A1C08604F00806E18 /* UIImage+MultiFormat.h */,
+				F1B5AD3B1C08604F00806E18 /* UIImage+MultiFormat.m */,
+				F1B5AD3C1C08604F00806E18 /* UIImage+WebP.h */,
+				F1B5AD3D1C08604F00806E18 /* UIImage+WebP.m */,
+				F1B5AD3E1C08604F00806E18 /* UIImageView+HighlightedWebCache.h */,
+				F1B5AD3F1C08604F00806E18 /* UIImageView+HighlightedWebCache.m */,
+				F1B5AD401C08604F00806E18 /* UIImageView+WebCache.h */,
+				F1B5AD411C08604F00806E18 /* UIImageView+WebCache.m */,
+				F1B5AD421C08604F00806E18 /* UIView+WebCacheOperation.h */,
+				F1B5AD431C08604F00806E18 /* UIView+WebCacheOperation.m */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		F1B5AD631C09590F00806E18 /* HelpFile */ = {
+			isa = PBXGroup;
+			children = (
+				F1B5AD651C0982B900806E18 /* Category */,
+				F1B5AD641C0981F100806E18 /* MBProgressHUD */,
+				F1B5AD131C08604F00806E18 /* KKLoadProgressView */,
+				F1B5AD201C08604F00806E18 /* SDWebImage */,
+			);
+			name = HelpFile;
+			sourceTree = "<group>";
+		};
+		F1B5AD641C0981F100806E18 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				F1B5AD1E1C08604F00806E18 /* MBProgressHUD.h */,
+				F1B5AD1F1C08604F00806E18 /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		F1B5AD651C0982B900806E18 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F1B5AD601C09544E00806E18 /* UIImage+Circle.h */,
+				F1B5AD611C09544E00806E18 /* UIImage+Circle.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F164A3791C08070E00D43B4A /* KKPhotoViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F164A3A71C08070E00D43B4A /* Build configuration list for PBXNativeTarget "KKPhotoViewer" */;
+			buildPhases = (
+				F164A3761C08070E00D43B4A /* Sources */,
+				F164A3771C08070E00D43B4A /* Frameworks */,
+				F164A3781C08070E00D43B4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKPhotoViewer;
+			productName = KKPhotoViewer;
+			productReference = F164A37A1C08070E00D43B4A /* KKPhotoViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F164A3921C08070E00D43B4A /* KKPhotoViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F164A3AA1C08070E00D43B4A /* Build configuration list for PBXNativeTarget "KKPhotoViewerTests" */;
+			buildPhases = (
+				F164A38F1C08070E00D43B4A /* Sources */,
+				F164A3901C08070E00D43B4A /* Frameworks */,
+				F164A3911C08070E00D43B4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F164A3951C08070E00D43B4A /* PBXTargetDependency */,
+			);
+			name = KKPhotoViewerTests;
+			productName = KKPhotoViewerTests;
+			productReference = F164A3931C08070E00D43B4A /* KKPhotoViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F164A39D1C08070E00D43B4A /* KKPhotoViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F164A3AD1C08070E00D43B4A /* Build configuration list for PBXNativeTarget "KKPhotoViewerUITests" */;
+			buildPhases = (
+				F164A39A1C08070E00D43B4A /* Sources */,
+				F164A39B1C08070E00D43B4A /* Frameworks */,
+				F164A39C1C08070E00D43B4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F164A3A01C08070E00D43B4A /* PBXTargetDependency */,
+			);
+			name = KKPhotoViewerUITests;
+			productName = KKPhotoViewerUITests;
+			productReference = F164A39E1C08070E00D43B4A /* KKPhotoViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F164A3721C08070E00D43B4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = zhang_rongwu;
+				TargetAttributes = {
+					F164A3791C08070E00D43B4A = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					F164A3921C08070E00D43B4A = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = F164A3791C08070E00D43B4A;
+					};
+					F164A39D1C08070E00D43B4A = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = F164A3791C08070E00D43B4A;
+					};
+				};
+			};
+			buildConfigurationList = F164A3751C08070E00D43B4A /* Build configuration list for PBXProject "KKPhotoViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F164A3711C08070E00D43B4A;
+			productRefGroup = F164A37B1C08070E00D43B4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F164A3791C08070E00D43B4A /* KKPhotoViewer */,
+				F164A3921C08070E00D43B4A /* KKPhotoViewerTests */,
+				F164A39D1C08070E00D43B4A /* KKPhotoViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F164A3781C08070E00D43B4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F164A38D1C08070E00D43B4A /* LaunchScreen.storyboard in Resources */,
+				F164A38A1C08070E00D43B4A /* Assets.xcassets in Resources */,
+				F164A3881C08070E00D43B4A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F164A3911C08070E00D43B4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F164A39C1C08070E00D43B4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F164A3761C08070E00D43B4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1B5AD5A1C08604F00806E18 /* UIImage+GIF.m in Sources */,
+				F1B5AD571C08604F00806E18 /* SDWebImageManager.m in Sources */,
+				F1B5AD5E1C08604F00806E18 /* UIImageView+WebCache.m in Sources */,
+				F1B5AD561C08604F00806E18 /* SDWebImageDownloaderOperation.m in Sources */,
+				F164A3851C08070E00D43B4A /* ViewController.m in Sources */,
+				F1B5AD521C08604F00806E18 /* SDImageCache.m in Sources */,
+				F1B5AD501C08604F00806E18 /* MKAnnotationView+WebCache.m in Sources */,
+				F1B5AD461C08604F00806E18 /* KKImgScrollView.m in Sources */,
+				F1B5AD5B1C08604F00806E18 /* UIImage+MultiFormat.m in Sources */,
+				F1B5AD451C08604F00806E18 /* KKImageViewerHelper.m in Sources */,
+				F164A3821C08070E00D43B4A /* AppDelegate.m in Sources */,
+				F1B5AD5F1C08604F00806E18 /* UIView+WebCacheOperation.m in Sources */,
+				F1B5AD491C08604F00806E18 /* KKBaseProgressView.m in Sources */,
+				F1B5AD5C1C08604F00806E18 /* UIImage+WebP.m in Sources */,
+				F1B5AD581C08604F00806E18 /* SDWebImagePrefetcher.m in Sources */,
+				F1B5AD4B1C08604F00806E18 /* KKPercentProgressView.m in Sources */,
+				F1B5AD621C09544E00806E18 /* UIImage+Circle.m in Sources */,
+				F164A37F1C08070E00D43B4A /* main.m in Sources */,
+				F1B5AD4D1C08604F00806E18 /* MBProgressHUD.m in Sources */,
+				F1B5AD531C08604F00806E18 /* SDWebImageCompat.m in Sources */,
+				F1B5AD511C08604F00806E18 /* NSData+ImageContentType.m in Sources */,
+				F1B5AD541C08604F00806E18 /* SDWebImageDecoder.m in Sources */,
+				F1B5AD4A1C08604F00806E18 /* KKLoadingProgressView.m in Sources */,
+				F1B5AD5D1C08604F00806E18 /* UIImageView+HighlightedWebCache.m in Sources */,
+				F1B5AD591C08604F00806E18 /* UIButton+WebCache.m in Sources */,
+				F164A4081C083C6200D43B4A /* KKTableViewController.m in Sources */,
+				F164A40B1C083C7A00D43B4A /* KKViewController.m in Sources */,
+				F1B5AD4C1C08604F00806E18 /* KKPieProgressView.m in Sources */,
+				F1B5AD471C08604F00806E18 /* KKTapImageView.m in Sources */,
+				F1B5AD551C08604F00806E18 /* SDWebImageDownloader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F164A38F1C08070E00D43B4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F164A3981C08070E00D43B4A /* KKPhotoViewerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F164A39A1C08070E00D43B4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F164A3A31C08070E00D43B4A /* KKPhotoViewerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F164A3951C08070E00D43B4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F164A3791C08070E00D43B4A /* KKPhotoViewer */;
+			targetProxy = F164A3941C08070E00D43B4A /* PBXContainerItemProxy */;
+		};
+		F164A3A01C08070E00D43B4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F164A3791C08070E00D43B4A /* KKPhotoViewer */;
+			targetProxy = F164A39F1C08070E00D43B4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F164A3861C08070E00D43B4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F164A3871C08070E00D43B4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F164A38B1C08070E00D43B4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F164A38C1C08070E00D43B4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F164A3A51C08070E00D43B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F164A3A61C08070E00D43B4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F164A3A81C08070E00D43B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KKPhotoViewer/KKImageViewer/SDWebImage",
+				);
+				INFOPLIST_FILE = KKPhotoViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhang-rongwu.KKPhotoViewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F164A3A91C08070E00D43B4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KKPhotoViewer/KKImageViewer/SDWebImage",
+				);
+				INFOPLIST_FILE = KKPhotoViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhang-rongwu.KKPhotoViewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F164A3AB1C08070E00D43B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KKPhotoViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhang-rongwu.KKPhotoViewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KKPhotoViewer.app/KKPhotoViewer";
+			};
+			name = Debug;
+		};
+		F164A3AC1C08070E00D43B4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KKPhotoViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhang-rongwu.KKPhotoViewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KKPhotoViewer.app/KKPhotoViewer";
+			};
+			name = Release;
+		};
+		F164A3AE1C08070E00D43B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KKPhotoViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhang-rongwu.KKPhotoViewerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KKPhotoViewer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F164A3AF1C08070E00D43B4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KKPhotoViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhang-rongwu.KKPhotoViewerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KKPhotoViewer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F164A3751C08070E00D43B4A /* Build configuration list for PBXProject "KKPhotoViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F164A3A51C08070E00D43B4A /* Debug */,
+				F164A3A61C08070E00D43B4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F164A3A71C08070E00D43B4A /* Build configuration list for PBXNativeTarget "KKPhotoViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F164A3A81C08070E00D43B4A /* Debug */,
+				F164A3A91C08070E00D43B4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F164A3AA1C08070E00D43B4A /* Build configuration list for PBXNativeTarget "KKPhotoViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F164A3AB1C08070E00D43B4A /* Debug */,
+				F164A3AC1C08070E00D43B4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F164A3AD1C08070E00D43B4A /* Build configuration list for PBXNativeTarget "KKPhotoViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F164A3AE1C08070E00D43B4A /* Debug */,
+				F164A3AF1C08070E00D43B4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F164A3721C08070E00D43B4A /* Project object */;
+}
